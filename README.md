@@ -14,5 +14,6 @@ conda activate xtts
 conda install python=3.10
 pip install xtts-api-server pydub
 pip install torch==2.1.1+cu118 torchaudio==2.1.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip install torch==2.1.1 torchaudio==2.1.1 torchvision --index-url https://download.pytorch.org/whl/cu118
 python -m xtts_api_server
 ```
