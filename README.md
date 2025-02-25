@@ -7,7 +7,8 @@ cd xtts
 mkdir speakers
 mkdir output
 brew install miniconda
-conda init
+conda init zsh
+source ~/.zshrc
 conda create -n xtts
 conda activate xtts
 conda install python=3.10
