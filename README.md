@@ -16,3 +16,10 @@ pip install xtts-api-server pydub
 pip install torch==2.1.1 torchaudio==2.1.1 torchvision --index-url https://download.pytorch.org/whl/cu118
 python -m xtts_api_server --streaming-mode-improve
 ```
+# Docker Build
+Need to build for arm64:
+```
+git clone https://github.com/daswer123/xtts-api-server.git
+cd docker
+docker build --platform linux/arm64 -t xtts-api-server-arm .
+```
