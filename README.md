@@ -19,6 +19,7 @@ python -m xtts_api_server --streaming-mode-improve
 # Docker Build
 Need to build for arm64:
 ```
+https://docs.docker.com/engine/install/ (Instal Docker Engine)
 git clone https://github.com/daswer123/xtts-api-server.git
 cd docker
 docker build --platform linux/arm64 -t xtts-api-server-arm .
